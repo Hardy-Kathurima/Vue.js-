@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: blueviolet;
+  margin-bottom: 10px;
+}
+h3 {
+  color: greenyellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calculator {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.position {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+#canvas {
+  max-width: 600px;
+  padding: 200px 20px;
+  text-align: center;
+  border: 1px solid #333;
+}
+.keyboard-events {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.keyboard-events span {
+  color: white;
+  text-align: center;
+}
+.keyboard-events input {
+  padding: 10px;
+}
+
+.inputs {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.computed {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.dynamic-css {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.conditionals {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.looping-list {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.loop-object {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.components {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.refs {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid rgb(0, 255, 136);
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.dynamic-css span {
+  background: red;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.available span {
+  background: green;
+}
+
+.nearby span:after {
+  content: "nearby";
+  margin-left: 10px;
+}
+.refs input {
+  padding: 10px;
+  font-size: 17px;
+}
